@@ -1,0 +1,20 @@
+version: 1
+cron:
+  - name: "main"
+    url: "MfeedsCrawler/main.js"
+    schedule: "4 * * * *"
+  - name: "assunot"
+    url: "MfeedsCrawler/assunot.js"
+    schedule: "40 * * * *"
+  - name: "tori"
+    url: "MfeedsCrawler/tori.js"
+    schedule: "15 * * * *"
+  - name: "etuovi"
+    url: "MfeedsCrawler/etuovi.js"
+    schedule: "30 * * * *"
+  - name: "habita"
+    url: "MfeedsCrawler/habita.js"
+    schedule: "10 * * * *"
+  - name: "huoneistokeskus"
+    url: "MfeedsCrawler/huoneistokeskus.js"
+    schedule: "35 * * * *
